@@ -2,6 +2,7 @@
 ## or otherwise solves directly with use of functions defined in 
 ## makeCacheMatrix
 
+##-----------------------------------------------------------------
 
 ## makeCacheMatrix
 ## Inputs: x (Matrix)
