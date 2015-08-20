@@ -2,8 +2,7 @@
 ## or otherwise solves directly with use of functions defined in 
 ## makeCacheMatrix
 
-##-----------------------------------------------------------------
-
+##------------------------------------------------------------------
 ## makeCacheMatrix
 ## Inputs: x (Matrix)
 ## Returns list of functions: set, get, setinv, getinv
@@ -12,7 +11,7 @@
 ## get - returns x value
 ## setinv - sets inv to inverse value passed in
 ## getinv - returns inv value
-##
+##------------------------------------------------------------------
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
       set <- function(y) {
@@ -29,14 +28,14 @@ makeCacheMatrix <- function(x = matrix()) {
 	)
 }
 
-
+##------------------------------------------------------------------
 ## cacheSolve
 ## Inputs: x (Matrix)
 ## Returns the Matrix Inverse of x
 ##
 ## Check to see if the inverse has already been calculated
 ## If so return from Cache else calculate the matrix inverse
-##
+##------------------------------------------------------------------
 cacheSolve <- function(x, ...) {
 
 	inv <- x$getinv()
